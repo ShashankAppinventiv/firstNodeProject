@@ -18,4 +18,4 @@ else if(req.url=='/user'){
     res.write("2nd request fulfilled");
     res.end();
 }
-}).listen(port);
+}).listen(port)
